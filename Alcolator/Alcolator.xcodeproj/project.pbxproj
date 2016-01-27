@@ -16,6 +16,7 @@
 		820FCD881C59159700CBDFED /* AlcolatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 820FCD871C59159700CBDFED /* AlcolatorTests.m */; };
 		820FCD931C59159700CBDFED /* AlcolatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 820FCD921C59159700CBDFED /* AlcolatorUITests.m */; };
 		820FCDA21C5934CF00CBDFED /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820FCDA11C5934CF00CBDFED /* WhiskeyViewController.m */; };
+		820FCDA51C59506500CBDFED /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820FCDA41C59506500CBDFED /* MainMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		820FCD941C59159700CBDFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		820FCDA01C5934CF00CBDFED /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WhiskeyViewController.h; path = ../WhiskeyViewController.h; sourceTree = "<group>"; };
 		820FCDA11C5934CF00CBDFED /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WhiskeyViewController.m; path = ../WhiskeyViewController.m; sourceTree = "<group>"; };
+		820FCDA31C59506500CBDFED /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		820FCDA41C59506500CBDFED /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				820FCD741C59159700CBDFED /* ViewController.m */,
 				820FCDA01C5934CF00CBDFED /* WhiskeyViewController.h */,
 				820FCDA11C5934CF00CBDFED /* WhiskeyViewController.m */,
+				820FCDA31C59506500CBDFED /* MainMenuViewController.h */,
+				820FCDA41C59506500CBDFED /* MainMenuViewController.m */,
 				820FCD761C59159700CBDFED /* Main.storyboard */,
 				820FCD791C59159700CBDFED /* Assets.xcassets */,
 				820FCD7B1C59159700CBDFED /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 				820FCDA21C5934CF00CBDFED /* WhiskeyViewController.m in Sources */,
 				820FCD721C59159700CBDFED /* AppDelegate.m in Sources */,
 				820FCD6F1C59159700CBDFED /* main.m in Sources */,
+				820FCDA51C59506500CBDFED /* MainMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
