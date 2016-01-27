@@ -34,7 +34,7 @@
                                 <rect key="frame" x="18" y="58" width="564" height="31"/>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w56-rz-JEY">
-                                <rect key="frame" x="35" y="149" width="530" height="26"/>
+                                <rect key="frame" x="244" y="149" width="113" height="26"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -44,17 +44,33 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="w56-rz-JEY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="1lX-Dd-BJb"/>
+                            <constraint firstItem="w56-rz-JEY" firstAttribute="centerX" secondItem="Kbx-PR-yVB" secondAttribute="centerX" id="6aW-1T-oFb"/>
+                            <constraint firstItem="w56-rz-JEY" firstAttribute="top" secondItem="Kbx-PR-yVB" secondAttribute="bottom" constant="8" id="HGF-ce-hvA"/>
                             <constraint firstItem="UQw-LR-tnE" firstAttribute="top" secondItem="xs3-wG-kfU" secondAttribute="bottom" constant="8" id="HZL-9V-Mjr"/>
                             <constraint firstItem="Kbx-PR-yVB" firstAttribute="top" secondItem="UQw-LR-tnE" secondAttribute="bottom" constant="8" id="M3b-55-OJ7"/>
                             <constraint firstAttribute="leadingMargin" secondItem="xs3-wG-kfU" secondAttribute="leading" id="MZn-jj-GAp"/>
                             <constraint firstAttribute="trailingMargin" secondItem="w56-rz-JEY" secondAttribute="trailing" constant="15" id="QeI-jT-2eW"/>
                             <constraint firstItem="Kbx-PR-yVB" firstAttribute="centerX" secondItem="UQw-LR-tnE" secondAttribute="centerX" id="SGF-d0-gbG"/>
+                            <constraint firstItem="w56-rz-JEY" firstAttribute="width" secondItem="Kbx-PR-yVB" secondAttribute="width" id="Tg2-jn-8Qe"/>
                             <constraint firstItem="UQw-LR-tnE" firstAttribute="width" secondItem="xs3-wG-kfU" secondAttribute="width" id="U7h-uP-hER"/>
+                            <constraint firstItem="Kbx-PR-yVB" firstAttribute="leading" secondItem="w56-rz-JEY" secondAttribute="trailing" constant="38" id="YAT-Ti-QUT"/>
                             <constraint firstItem="w56-rz-JEY" firstAttribute="top" secondItem="Kbx-PR-yVB" secondAttribute="bottom" constant="8" id="fT4-G2-9KN"/>
+                            <constraint firstItem="w56-rz-JEY" firstAttribute="width" secondItem="Kbx-PR-yVB" secondAttribute="width" id="ika-pP-WAa"/>
+                            <constraint firstItem="Kbx-PR-yVB" firstAttribute="leading" secondItem="w56-rz-JEY" secondAttribute="trailing" constant="38" id="j3f-fn-60O"/>
                             <constraint firstItem="xs3-wG-kfU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="sAJ-FK-vZ9"/>
                             <constraint firstAttribute="trailingMargin" secondItem="xs3-wG-kfU" secondAttribute="trailing" id="tss-Fe-NHP"/>
                             <constraint firstItem="UQw-LR-tnE" firstAttribute="centerX" secondItem="xs3-wG-kfU" secondAttribute="centerX" id="yaU-W6-Ydm"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="YAT-Ti-QUT"/>
+                                <exclude reference="j3f-fn-60O"/>
+                                <exclude reference="1lX-Dd-BJb"/>
+                                <exclude reference="QeI-jT-2eW"/>
+                                <exclude reference="Tg2-jn-8Qe"/>
+                                <exclude reference="fT4-G2-9KN"/>
+                            </mask>
+                        </variation>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="FCg-2l-Oez" appends="YES" id="dn8-pe-j9N"/>
                         </connections>
