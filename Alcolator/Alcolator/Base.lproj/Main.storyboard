@@ -120,6 +120,7 @@
                     <connections>
                         <outlet property="beerCountSlider" destination="UQw-LR-tnE" id="f5M-QJ-HT0"/>
                         <outlet property="beerPercentTextField" destination="xs3-wG-kfU" id="jTc-fs-ob9"/>
+                        <outlet property="navBar" destination="mLZ-qg-siV" id="bJe-du-K3Y"/>
                         <outlet property="resultLabel" destination="w56-rz-JEY" id="Cc9-IX-mvB"/>
                     </connections>
                 </viewController>

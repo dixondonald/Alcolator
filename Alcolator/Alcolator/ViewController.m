@@ -33,9 +33,19 @@
     }
 }
 
+
+
 - (IBAction)sliderDidChange:(UISlider *)sender {
     NSLog(@"Slider value changed to %f", sender.value);
     [self.beerPercentTextField resignFirstResponder];
+    int numberOfBeers = [sender value];
+    if (numberOfBeers == 1) {
+        NSString *navTitle = [NSString stringWithFormat:@"Wine(%d beer)", numberOfBeers];
+        self.navBar.title = navTitle;
+    } else {
+        NSString *navTitle = [NSString stringWithFormat:@"Wine(%d beers)", numberOfBeers];
+        self.navBar.title = navTitle;
+    }
 }
 
 - (IBAction)buttonPressed:(UIButton *)sender {
