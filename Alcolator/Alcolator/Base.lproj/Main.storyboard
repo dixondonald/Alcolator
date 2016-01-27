@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kbx-PR-yVB">
+                                <rect key="frame" x="244" y="96" width="113" height="45"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
+                                <state key="normal" title="Calculate">
+                                    <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="% Alcohol Content per Beer" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xs3-wG-kfU">
+                                <rect key="frame" x="20" y="20" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="UQw-LR-tnE">
+                                <rect key="frame" x="18" y="58" width="564" height="31"/>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w56-rz-JEY">
+                                <rect key="frame" x="35" y="149" width="530" height="26"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="w56-rz-JEY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="1lX-Dd-BJb"/>
+                            <constraint firstItem="UQw-LR-tnE" firstAttribute="top" secondItem="xs3-wG-kfU" secondAttribute="bottom" constant="8" id="HZL-9V-Mjr"/>
+                            <constraint firstItem="Kbx-PR-yVB" firstAttribute="top" secondItem="UQw-LR-tnE" secondAttribute="bottom" constant="8" id="M3b-55-OJ7"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="xs3-wG-kfU" secondAttribute="leading" id="MZn-jj-GAp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="w56-rz-JEY" secondAttribute="trailing" constant="15" id="QeI-jT-2eW"/>
+                            <constraint firstItem="Kbx-PR-yVB" firstAttribute="centerX" secondItem="UQw-LR-tnE" secondAttribute="centerX" id="SGF-d0-gbG"/>
+                            <constraint firstItem="UQw-LR-tnE" firstAttribute="width" secondItem="xs3-wG-kfU" secondAttribute="width" id="U7h-uP-hER"/>
+                            <constraint firstItem="w56-rz-JEY" firstAttribute="top" secondItem="Kbx-PR-yVB" secondAttribute="bottom" constant="8" id="fT4-G2-9KN"/>
+                            <constraint firstItem="xs3-wG-kfU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="sAJ-FK-vZ9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xs3-wG-kfU" secondAttribute="trailing" id="tss-Fe-NHP"/>
+                            <constraint firstItem="UQw-LR-tnE" firstAttribute="centerX" secondItem="xs3-wG-kfU" secondAttribute="centerX" id="yaU-W6-Ydm"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="FCg-2l-Oez" appends="YES" id="dn8-pe-j9N"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="FCg-2l-Oez"/>
+            </objects>
+            <point key="canvasLocation" x="380" y="314"/>
+        </scene>
+    </scenes>
+</document>
