@@ -196,7 +196,9 @@
                     <connections>
                         <outlet property="beerCountSlider" destination="4Fn-d2-mHW" id="9QO-0P-hr6"/>
                         <outlet property="beerPercentTextField" destination="7lU-lH-qdG" id="Y4f-wp-g5n"/>
+                        <outlet property="navBar" destination="ayP-IY-JQJ" id="mi8-vH-Eg0"/>
                         <outlet property="resultLabel" destination="j2t-nw-hcd" id="Meb-1K-qb9"/>
+                        <outlet property="whiskeyNavBar" destination="ayP-IY-JQJ" id="l4O-ze-sHz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q1s-s7-dzR" userLabel="First Responder" sceneMemberID="firstResponder"/>

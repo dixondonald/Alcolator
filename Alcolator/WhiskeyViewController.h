@@ -9,5 +9,6 @@
 #import "ViewController.h"
 
 @interface WhiskeyViewController : ViewController
+@property (weak, nonatomic) IBOutlet UINavigationItem *whiskeyNavBar;
 
 @end

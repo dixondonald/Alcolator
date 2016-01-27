@@ -15,19 +15,19 @@
 @implementation WhiskeyViewController
 
 
-//- (void)sliderDidChange:(UISlider *)sender {
-//    NSLog(@"Slider value  to %f", self.beerCountSlider.value);
-//    [self.beerPercentTextField resignFirstResponder];
-//    int numberOfBeers = [self.beerCountSlider value];
-//    if (numberOfBeers == 1) {
-//        NSString *navTitle = [NSString stringWithFormat:@"Whiskey(%d beer)", numberOfBeers];
-//        self.navBar.title = navTitle;
-//    } else {
-//        NSString *navTitle = [NSString stringWithFormat:@"Whiskey(%d beers)", numberOfBeers];
-//        self.navBar.title = navTitle;
-//        NSLog(@"%@", navTitle);
-//    }
-//}
+- (void)sliderDidChange:(UISlider *)sender {
+    NSLog(@"Slider value  to %f", self.beerCountSlider.value);
+    [self.beerPercentTextField resignFirstResponder];
+    int numberOfBeers = [self.beerCountSlider value];
+    if (numberOfBeers == 1) {
+        NSString *navTitle = [NSString stringWithFormat:@"Whiskey(%d beer)", numberOfBeers];
+        self.navBar.title = navTitle;
+    } else {
+        NSString *navTitle = [NSString stringWithFormat:@"Whiskey(%d beers)", numberOfBeers];
+        self.whiskeyNavBar.title = navTitle;
+        NSLog(@"%@", navTitle);
+    }
+}
 
 
 
